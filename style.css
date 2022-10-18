@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body > div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(194, 252, 146);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*SceneStart*/
+
+.SceneStart{
+    display: block;
+}
+
+.SceneStart h1{
+    font-size: 6vw;
+    margin: 3vw;
+    color: rgb(14, 14, 13);
+}
+.SceneStart .StartButton{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*SceneGame*/
+
+.SceneGame{
+    display: none;
+    background-color: rgb(201, 154, 246);
+}
+.SceneGame .ship{
+    position: absolute;
+    bottom: 5vw;
+    left: 46vw;
+    background-image: url(img/ship.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+.Meteor{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/Asteroid.jpg);
+    background-size: contain;
+    position: absolute;
+    top: 0;
+}
+
+/*SceneVin*/
+
+.SceneVin{
+    display: none;
+}
+
+/*SceneGameOver*/
+
+.SceneGameOver{
+    display: none;
+}
